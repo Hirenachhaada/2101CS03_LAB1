@@ -5,6 +5,7 @@ int main()
     printf("1. To add two numbers\n");
     printf("2. To add two numbers\n");
     printf("3. To add two numbers\n");
+    printf("4. To add two numbers\n");
     scanf("%d", &option);
     if(option==1)
     {
@@ -34,6 +35,16 @@ int main()
         scanf("%d",&num1);
         scanf("%d",&num2);
         printf("The value of multiplication is%d\n", num1*num2);
+        return 0;
+    }
+    if(option==4)
+    {
+        // code for division two numbers
+        float num1,num2;
+        printf("Enter two numbers: ");
+        scanf("%d",&num1);
+        scanf("%d",&num2);
+        printf("The value of division is %d\n", num1/num2);
         return 0;
     }
 
