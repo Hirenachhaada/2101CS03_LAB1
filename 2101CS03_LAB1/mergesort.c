@@ -61,7 +61,7 @@ void mergeSort(int arr[], int l, int r)
 int main()
 {
         int n;
-        printf("Enter the number of elements in the array: ");
+        printf("Enter the number of elements in the array: "); // Printing
         scanf("%d", &n);
         int arr[n];
         printf("Enter the elements of the array: ");
