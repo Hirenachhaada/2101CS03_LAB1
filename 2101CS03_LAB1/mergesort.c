@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-void merge(int arr[], int l, int m, int r)
+void merge(int arr[], int l, int m, int r) // ffunction 
 {
     int i, j, k;
     int n1 = m - l + 1;
