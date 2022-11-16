@@ -4,7 +4,7 @@ int main()
     int option;
     printf("1. To get addition of two numbers\n");
     printf("2. To get subtraction of two numbers\n");
-    printf("3. To get multiplication of two numbers\n");
+    printf("3. To get multiplication of two numbers\n"); // printing
     printf("4. To get division of two numbers\n");
     printf("5. To get remainder of two numbers\n");
     scanf("%d", &option);
